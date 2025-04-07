@@ -1,6 +1,7 @@
 
 function love.load()
-  
+  love.window.setMode(1000, 800)
+  love.setTitle("Game")
 end
 
 function love.update()
